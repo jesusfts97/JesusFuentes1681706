@@ -425,7 +425,7 @@ GO
 INSERT [dbo].[Alumnos] ([id_alumnos], [nombre], [apellido_paterno], [apellido_materno]) VALUES (1681706, N'Jesus', N'Fuentes', N'Hernandez')
 INSERT [dbo].[Alumnos] ([id_alumnos], [nombre], [apellido_paterno], [apellido_materno]) VALUES (2, N'Carlos', N'Hernandez', N'Perez')
 INSERT [dbo].[Alumnos] ([id_alumnos], [nombre], [apellido_paterno], [apellido_materno]) VALUES (3, N'Brayan', N'Fernandez', N'Flores')
-INSERT [dbo].[Alumnos] ([id_alumnos], [nombre], [apellido_paterno], [apellido_materno]) VALUES (4, N'Blanca', N'PeÒa', N'Ruiz')
+INSERT [dbo].[Alumnos] ([id_alumnos], [nombre], [apellido_paterno], [apellido_materno]) VALUES (4, N'Blanca', N'Pe√±a', N'Ruiz')
 INSERT [dbo].[Alumnos] ([id_alumnos], [nombre], [apellido_paterno], [apellido_materno]) VALUES (5, N'Reyna', N'Alanis', N'Gomez')
 INSERT [dbo].[Alumnos] ([id_alumnos], [nombre], [apellido_paterno], [apellido_materno]) VALUES (6, N'Veronica', N'Castro', N'Trujillo')
 INSERT [dbo].[Alumnos] ([id_alumnos], [nombre], [apellido_paterno], [apellido_materno]) VALUES (7, N'Everardo', N'Ruiz', N'Castellan')
@@ -435,7 +435,7 @@ INSERT [dbo].[Alumnos] ([id_alumnos], [nombre], [apellido_paterno], [apellido_ma
 INSERT [dbo].[Becarios] ([id_becario], [nombre], [apellido_paterno], [apellido_materno]) VALUES (1, N'Andres', N'Hernandez', N'Sanchez')
 INSERT [dbo].[Becarios] ([id_becario], [nombre], [apellido_paterno], [apellido_materno]) VALUES (2, N'Carlos', N'Hernandez', N'Flores')
 INSERT [dbo].[Becarios] ([id_becario], [nombre], [apellido_paterno], [apellido_materno]) VALUES (3, N'Brayan', N'Fernandez', N'Gomez')
-INSERT [dbo].[Becarios] ([id_becario], [nombre], [apellido_paterno], [apellido_materno]) VALUES (4, N'Blanca', N'PeÒa', N'Herrera')
+INSERT [dbo].[Becarios] ([id_becario], [nombre], [apellido_paterno], [apellido_materno]) VALUES (4, N'Blanca', N'Pe√±a', N'Herrera')
 INSERT [dbo].[Becarios] ([id_becario], [nombre], [apellido_paterno], [apellido_materno]) VALUES (5, N'Reyna', N'Alanis', N'Leon')
 INSERT [dbo].[Becarios] ([id_becario], [nombre], [apellido_paterno], [apellido_materno]) VALUES (6, N'Veronica', N'Castro', N'Lennin')
 INSERT [dbo].[Becarios] ([id_becario], [nombre], [apellido_paterno], [apellido_materno]) VALUES (7, N'Everardo', N'Ruis', N'Stalin')
@@ -454,7 +454,7 @@ INSERT [dbo].[Calificacion] ([id_calificacion], [parcial_1], [parcial_2]) VALUES
 INSERT [dbo].[Calificacion] ([id_calificacion], [parcial_1], [parcial_2]) VALUES (9, 65, 50)
 INSERT [dbo].[Calificacion] ([id_calificacion], [parcial_1], [parcial_2]) VALUES (10, 80, 65)
 INSERT [dbo].[Calificacion] ([id_calificacion], [parcial_1], [parcial_2]) VALUES (11, 75, 50)
-INSERT [dbo].[Carrera] ([id_carrera], [nombre_carrera]) VALUES (1, N'Licenciatura en Matem·ticas')
+INSERT [dbo].[Carrera] ([id_carrera], [nombre_carrera]) VALUES (1, N'Licenciatura en Matem√°ticas')
 INSERT [dbo].[Carrera] ([id_carrera], [nombre_carrera]) VALUES (2, N'Licenciatura en Fisica')
 INSERT [dbo].[Carrera] ([id_carrera], [nombre_carrera]) VALUES (3, N'Licenciatura en Economia')
 INSERT [dbo].[Carrera] ([id_carrera], [nombre_carrera]) VALUES (4, N'Licenciatura en Artes Visuales')
@@ -463,7 +463,7 @@ INSERT [dbo].[Carrera] ([id_carrera], [nombre_carrera]) VALUES (6, N'Licenciatur
 INSERT [dbo].[Carrera] ([id_carrera], [nombre_carrera]) VALUES (7, N'Licenciatura en Agronomia')
 INSERT [dbo].[Carrera] ([id_carrera], [nombre_carrera]) VALUES (8, N'Licenciatura en Derecho')
 INSERT [dbo].[Carrera] ([id_carrera], [nombre_carrera]) VALUES (9, N'Licenciatura en Criminologia')
-INSERT [dbo].[Carrera] ([id_carrera], [nombre_carrera]) VALUES (10, N'Licenciatura en DiseÒo Industrial')
+INSERT [dbo].[Carrera] ([id_carrera], [nombre_carrera]) VALUES (10, N'Licenciatura en Dise√±o Industrial')
 INSERT [dbo].[Carrera] ([id_carrera], [nombre_carrera]) VALUES (11, N'Ingeniero Civil')
 INSERT [dbo].[Departamento] ([id_departamento], [nombre_departamento]) VALUES (1, N'Becas')
 INSERT [dbo].[Departamento] ([id_departamento], [nombre_departamento]) VALUES (2, N'Escolar')
@@ -477,7 +477,7 @@ INSERT [dbo].[Departamento] ([id_departamento], [nombre_departamento]) VALUES (9
 INSERT [dbo].[Departamento] ([id_departamento], [nombre_departamento]) VALUES (10, N'Sociedad de Alumnos')
 INSERT [dbo].[Departamento] ([id_departamento], [nombre_departamento]) VALUES (11, N'Desarrollo Sustentable')
 INSERT [dbo].[Empleado] ([id_empleado], [nombre], [apellido_paterno], [apellido_materno], [fecha_ingreso]) VALUES (1, N'Juan', N'Perez', N'Cerda', CAST(N'2017-02-10' AS Date))
-INSERT [dbo].[Empleado] ([id_empleado], [nombre], [apellido_paterno], [apellido_materno], [fecha_ingreso]) VALUES (2, N'Eber', N'Hernandez', N'MagaÒa', CAST(N'2015-12-20' AS Date))
+INSERT [dbo].[Empleado] ([id_empleado], [nombre], [apellido_paterno], [apellido_materno], [fecha_ingreso]) VALUES (2, N'Eber', N'Hernandez', N'Maga√±a', CAST(N'2015-12-20' AS Date))
 INSERT [dbo].[Empleado] ([id_empleado], [nombre], [apellido_paterno], [apellido_materno], [fecha_ingreso]) VALUES (3, N'Eduardo', N'Herrera', N'Rey', CAST(N'2014-03-30' AS Date))
 INSERT [dbo].[Empleado] ([id_empleado], [nombre], [apellido_paterno], [apellido_materno], [fecha_ingreso]) VALUES (4, N'Sergio', N'Perez', N'Hernandez', CAST(N'2015-07-16' AS Date))
 INSERT [dbo].[Empleado] ([id_empleado], [nombre], [apellido_paterno], [apellido_materno], [fecha_ingreso]) VALUES (5, N'Luis', N'Perez', N'Herrera', CAST(N'2017-08-16' AS Date))
@@ -509,7 +509,7 @@ INSERT [dbo].[Grupo] ([id_grupo]) VALUES (8)
 INSERT [dbo].[Grupo] ([id_grupo]) VALUES (9)
 INSERT [dbo].[Grupo] ([id_grupo]) VALUES (10)
 INSERT [dbo].[Grupo] ([id_grupo]) VALUES (11)
-INSERT [dbo].[Maestro] ([id_maestro], [nombre], [apellido_paterno], [apellido_materno]) VALUES (5685457, N'Pepe', N'Hernandez', N'OroÒa')
+INSERT [dbo].[Maestro] ([id_maestro], [nombre], [apellido_paterno], [apellido_materno]) VALUES (5685457, N'Pepe', N'Hernandez', N'Oro√±a')
 INSERT [dbo].[Maestro] ([id_maestro], [nombre], [apellido_paterno], [apellido_materno]) VALUES (2, N'Miguel', N'Fernandez', N'Nieto')
 INSERT [dbo].[Maestro] ([id_maestro], [nombre], [apellido_paterno], [apellido_materno]) VALUES (3, N'Raul', N'Perez', N'Fox')
 INSERT [dbo].[Maestro] ([id_maestro], [nombre], [apellido_paterno], [apellido_materno]) VALUES (4, N'Hector', N'Silva', N'Salinas')
@@ -517,7 +517,7 @@ INSERT [dbo].[Maestro] ([id_maestro], [nombre], [apellido_paterno], [apellido_ma
 INSERT [dbo].[Maestro] ([id_maestro], [nombre], [apellido_paterno], [apellido_materno]) VALUES (6, N'Pablo', N'Hernandez', N'Reyes')
 INSERT [dbo].[Maestro] ([id_maestro], [nombre], [apellido_paterno], [apellido_materno]) VALUES (7, N'Juan', N'Hernandez', N'Hernandez')
 INSERT [dbo].[Maestro] ([id_maestro], [nombre], [apellido_paterno], [apellido_materno]) VALUES (8, N'Saul', N'Seanz', N'Cerda')
-INSERT [dbo].[Maestro] ([id_maestro], [nombre], [apellido_paterno], [apellido_materno]) VALUES (9, N'Laura', N'YaÒez', N'Flores')
+INSERT [dbo].[Maestro] ([id_maestro], [nombre], [apellido_paterno], [apellido_materno]) VALUES (9, N'Laura', N'Ya√±ez', N'Flores')
 INSERT [dbo].[Maestro] ([id_maestro], [nombre], [apellido_paterno], [apellido_materno]) VALUES (10, N'Sofia', N'Guzman', N'Lopez')
 INSERT [dbo].[Materia] ([id_materia], [nombre_materia]) VALUES (1, N'Algebra')
 INSERT [dbo].[Materia] ([id_materia], [nombre_materia]) VALUES (2, N'Calculo Diferencias')
@@ -530,9 +530,9 @@ INSERT [dbo].[Materia] ([id_materia], [nombre_materia]) VALUES (8, N'Telecomunic
 INSERT [dbo].[Materia] ([id_materia], [nombre_materia]) VALUES (9, N'Calculo Integral')
 INSERT [dbo].[Materia] ([id_materia], [nombre_materia]) VALUES (10, N'Algebra Lineal')
 INSERT [dbo].[Materia] ([id_materia], [nombre_materia]) VALUES (11, N'Derecho Informatico')
-INSERT [dbo].[Registro] ([id], [Registro], [fecha]) VALUES (1, N'Se agregÛ el ID        13', N'May  4 2019  3:10AM')
+INSERT [dbo].[Registro] ([id], [Registro], [fecha]) VALUES (1, N'Se agreg√≥ el ID        13', N'May  4 2019  3:10AM')
 INSERT [dbo].[Registro] ([id], [Registro], [fecha]) VALUES (2, N'Se elimino el ID        13', N'May  4 2019  3:10AM')
-/****** Object:  StoredProcedure [dbo].[V_1]    Script Date: 04/05/2019 3:11:56 ******/
+/****** Object:  StoredProcedure [dbo].[V_1]    Script Date: 04/12/2019 3:11:56 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -626,7 +626,7 @@ GO
     for INSERT
     AS
     BEGIN
-		INSERT INTO Registro VALUES((SELECT COUNT(*) FROM Registro) + 1,'Se agregÛ el ID' + STR((SELECT id_alumnos FROM inserted)),GETDATE());
+		INSERT INTO Registro VALUES((SELECT COUNT(*) FROM Registro) + 1,'Se agreg√≥ el ID' + STR((SELECT id_alumnos FROM inserted)),GETDATE());
     END
 GO
 USE [master]
