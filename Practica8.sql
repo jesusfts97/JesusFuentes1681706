@@ -530,8 +530,8 @@ INSERT [dbo].[Materia] ([id_materia], [nombre_materia]) VALUES (8, N'Telecomunic
 INSERT [dbo].[Materia] ([id_materia], [nombre_materia]) VALUES (9, N'Calculo Integral')
 INSERT [dbo].[Materia] ([id_materia], [nombre_materia]) VALUES (10, N'Algebra Lineal')
 INSERT [dbo].[Materia] ([id_materia], [nombre_materia]) VALUES (11, N'Derecho Informatico')
-INSERT [dbo].[Registro] ([id], [Registro], [fecha]) VALUES (1, N'Se agregó el ID        13', N'May  4 2019  3:10AM')
-INSERT [dbo].[Registro] ([id], [Registro], [fecha]) VALUES (2, N'Se elimino el ID        13', N'May  4 2019  3:10AM')
+INSERT [dbo].[Registro] ([id], [Registro], [fecha]) VALUES (1, N'Se agregó el ID        13', N'Nov  4 2019  3:10AM')
+INSERT [dbo].[Registro] ([id], [Registro], [fecha]) VALUES (2, N'Se elimino el ID        13', N'Nov  4 2019  3:10AM')
 /****** Object:  StoredProcedure [dbo].[V_1]    Script Date: 04/12/2019 3:11:56 ******/
 SET ANSI_NULLS ON
 GO
