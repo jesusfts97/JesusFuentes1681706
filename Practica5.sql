@@ -261,6 +261,7 @@ CREATE TABLE [dbo].[Materia](
 GO
 SET ANSI_PADDING OFF
 GO
+INSERT [dbo].[Alumnos] ([id_alumnos], [nombre], [apellido_paterno], [apellido_materno]) VALUES (1681706, N'Jesus', N'Fuentes', N'Hernandez')
 INSERT [dbo].[Alumnos] ([id_alumnos], [nombre], [apellido_paterno], [apellido_materno]) VALUES (2, N'Carlos', N'Hernandez', N'Perez')
 INSERT [dbo].[Alumnos] ([id_alumnos], [nombre], [apellido_paterno], [apellido_materno]) VALUES (3, N'Brayan', N'Fernandez', N'Flores')
 INSERT [dbo].[Alumnos] ([id_alumnos], [nombre], [apellido_paterno], [apellido_materno]) VALUES (4, N'Blanca', N'Peña', N'Ruiz')
