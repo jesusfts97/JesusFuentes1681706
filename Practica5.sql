@@ -349,7 +349,7 @@ INSERT [dbo].[Maestro] ([id_maestro], [nombre], [apellido_paterno], [apellido_ma
 INSERT [dbo].[Maestro] ([id_maestro], [nombre], [apellido_paterno], [apellido_materno]) VALUES (5, N'Brandon', N'Davila', N'Rios')
 INSERT [dbo].[Maestro] ([id_maestro], [nombre], [apellido_paterno], [apellido_materno]) VALUES (6, N'Pablo', N'Hernandez', N'Reyes')
 INSERT [dbo].[Maestro] ([id_maestro], [nombre], [apellido_paterno], [apellido_materno]) VALUES (7, N'Juan', N'Hernandez', N'Hernandez')
-INSERT [dbo].[Maestro] ([id_maestro], [nombre], [apellido_paterno], [apellido_materno]) VALUES (8, N'Saul', N'Seanz', N'Cerda')
+INSERT [dbo].[Maestro] ([id_maestro], [nombre], [apellido_paterno], [apellido_materno]) VALUES (8, N'Gerardo', N'Seanz', N'Cerda')
 INSERT [dbo].[Maestro] ([id_maestro], [nombre], [apellido_paterno], [apellido_materno]) VALUES (9, N'Laura', N'Yañez', N'Flores')
 INSERT [dbo].[Maestro] ([id_maestro], [nombre], [apellido_paterno], [apellido_materno]) VALUES (10, N'Sofia', N'Guzman', N'Lopez')
 INSERT [dbo].[Materia] ([id_materia], [nombre_materia]) VALUES (52648, N'Algebra')
